@@ -156,3 +156,122 @@ cd ..
 ls /home/zitendriyam
 ./explorer
 nano file_explorer.cpp
+cd ~/file_explorer
+/home/zitendriyam
+ls /home/zitendriyam
+cd /home/zitendriyam
+ls
+git init
+git add .
+git commit -m "Initial commit: File Explorer Application"
+git remote add origin https://github.com/YOUR_USERNAME/file_explorer.git
+git remote add origin https://github.com/zitendriyam/file_explorer.git
+cd ~/file_explorer
+cd /home/zitendriyam
+ls
+cd ~/file_explorer
+cd /home/zitendriyam/file_explorer
+cd /home/zitendriyam/file_explorer.cpp
+nano file_explorer.cpp
+cd ~/file_explorer
+cd /home/zitendriyam/file_explorer.cpp
+ls
+pwd
+ls
+mkdir ~/file_explorer
+mv ~/file_explorer.cpp ~/file_explorer/
+cd ~/file_explorer
+ls
+git init
+git add .
+git commit -m "Initial commit: File Explorer Application"
+git config --global user.name "Zitendriyam Nayak"
+git config --global user.email "zitendriyam@gmail.com"
+git add .
+git commit -m "Initial commit: File Explorer Application"
+git branch -M main
+git remote remove origin 2>/dev/null || true
+git remote add origin https://github.com/zitendriyam/file_explore.git
+git remote -v
+git push -u origin main
+ls
+git add file_explorer.cpp
+git commit -m "Added main project file: file_explorer.cpp"
+git push -u origin main
+nano file_explore.cpp
+ls
+./explorer
+./file_explorer
+ls
+ls
+cd ..
+mkdir dibyajyoti
+cd ~/file_explorer
+pwd         # should show /home/yourname/file_explorer
+ls -la      # verify file_explorer.cpp exists
+cd ~/file_explorer
+pwd
+cp file_explorer.cpp dibyajyoti.cpp
+pwd
+cd ~
+mkdir dibyajyoti
+cd ./file_explorer
+cd ..
+./explorer
+nano File_explore.cpp
+nano file_explorer.cpp
+./file_explorer
+./file_explorer.
+./explorer
+nano explore.cpp
+nano explorer.cpp
+nano file_explorer.cpp
+./file_explorer
+g++ -std=c++17 file_explorer.cpp -o file_explorer
+mv file_explorer file_explorer_folder
+./file_explorer_folder
+g++ file_explorer.cpp -o file_explorer
+./file_explorer_folder
+./file_explorer
+g++ file_explorer.cpp -o file_explorer_folder
+ls
+rm -r file_explore_folder
+rm -r file_explorer_folder
+rm file_explorer
+rm file_explorer_folder
+rmdir file_explorer_folder
+rm-r file_explorer_folder
+rm -r file_explorer_folder
+ls
+nano File_explorer.cpp
+rm -r file_explorer
+g++ -std=c++17 File_explorer.cpp -o File_explorer
+./File_explorer
+cd /home/zitendriyam
+ls
+cd /home/zitendriyam
+git init
+git add File_explorer.cpp
+echo "File_explorer" > .gitignore
+git add .gitignore
+git commit -m "Initial commit: added File_explorer.cpp project"
+git branch -M main
+git remote add origin https://github.com/<your-username>/File_explorer.git
+git push -u origin main
+git remote add origin https://github.com/zitendriyam/File_explorer.git
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+git config --global user.name "zitendriyam"
+git config --global user.email "zitendriyam@gmail.com"
+cd /home/zitendriyam
+ls
+git init
+git add File_explorer.cpp
+echo "File_explorer" > .gitignore
+git add .gitignore
+git commit -m "Initial commit: added File_explorer.cpp project"
+git add File_explorer.cpp
+git commit -m "Updated File_explorer.cpp"
+git push -u origin main
+./explorer
+nano file_explorer.cpp

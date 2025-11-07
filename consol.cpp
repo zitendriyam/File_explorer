@@ -1,6 +1,3 @@
-// file_explorer.cpp
-// Compile: g++ -std=c++17 file_explorer.cpp -o explorer
-// Run: ./explorer
 
 
 #include <iostream>

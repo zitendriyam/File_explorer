@@ -1,7 +1,6 @@
 // file_explorer.cpp
-// Compile: g++ -std=c++17 file_explorer.cpp -o explorer
-// Run: ./explorer
-
+// Compile: g++ -std=c++17 file_explorer.cpp -o file_explorer
+// Run: ./file_explorer
 
 #include <iostream>
 #include <filesystem>
