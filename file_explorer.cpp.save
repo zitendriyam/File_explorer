@@ -1,0 +1,40 @@
+#include <unistd.h>
+#include <limits.h>
+
+void changeDirectory(const string& path) {
+    if (chdir(path.c_str()) == 0) {
+        char cwd[PATH_MAX];
+        getcwd(cwd, sizeof(cwd));
+        cout << "Changed directory to: " << cwd << endl;
+    } else {
+        perror("chdir() error");
+    }
+}#include <iostream>
+#include <dirent.h>
+#include <sys/stat.h>
+#include <cstring>
+using namespace std;
+
+void listFiles(const string& path) {
+    DIR *dir;
+    struct dirent *entry;
+    if ((dir = opendir(path.c_str())) == nullptr) {
+        perror("opendir() error");
+        return;
+    }
+
+    cout << "Contents of " << path << ":\n";
+    while ((entry = readdir(dir)) != nullptr) {
+        cout << entry->d_name << endl;
+    }
+    closedir(dir);
+}
+
+int main() {
+    string path;
+    cout << "Enter directory path: ";
+    cin >> path;
+    listFiles(path);
+    return 0;
+}
+
